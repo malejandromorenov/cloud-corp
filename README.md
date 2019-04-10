@@ -7,7 +7,7 @@ Then am explain the companies within the hierarchy and its dashboards. Am wrote 
 
 | Companies		                | Description						                                | URL           		   	                          |
 | ----------------------------| ------------------------------------------------------|-------------------------------------------------|
-| AWS 			                  | Contenido de la celda 				                        |https://aws.amazon.com/es/                 			|
+| AWS 			                  | AWS & Microsoft make and allaince for SQL and virtual Machines 				                        |https://aws.amazon.com/es/                 			|
 | Kubernetes 		              | Contenido de la celda 				                        | 			                                          |
 | SAP			                    |                 							                        |		                  	        |
 | Azure Microsoft 	          | Only database non run shell and programming software  |		                  	|
