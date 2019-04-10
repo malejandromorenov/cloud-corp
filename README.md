@@ -10,14 +10,14 @@ Then am explain the companies within the hierarchy and its dashboards. Am wrote 
 | AWS 			                  | AWS & Microsoft make and alliance for SQL Server and virtual Machines 				                        |https://aws.amazon.com/es/                 			|
 | Kubernetes 		              | Virtual Machines run over Docker 				                        | 			                                          |
 | SAP			                    | Germany Software for ERP                							                        |	https://account.hanatrial.ondemand.com	                  	        |
-| Azure Microsoft 	          | Only database non run shell and programming software  |		                  	|
-| IBM 			                  | IBM is excluded since 29 March 2019 of UK		          |             		    	|
-| Twilio Cloud		            | Communication API for Developers                                        							|		                  	|
-| Zeit			                  |	DNS application for Web Services						                                          |			                  |
-| GitKraken		                | Dashboards for planification, Support GitHub 							                                        |		                  	|
-| Docker		                  | Containers SDKs for run in Virtual Machines							                                          |			                  |
-| Visual Studio		            |	Software for Developers. Some Lenguages (C,C++,C#, Java, Python, JS)						                                          | 		                	|
-| ElasticSearch		            | Server's Monitor							                                          |			                  |
-| OpenShift		                |							                                          |			                  |
-| Google Cloud                | Shell and scalables solution for Android and the Cloud                                                      |                       |
-|
+| Azure Microsoft 	          | Only database non run shell and programming software  |	https://portal.azure.com	                  	|
+| IBM 			                  | IBM is excluded since 29 March 2019 of UK		          | https://idaas.iam.ibm.com            		    	|
+| Twilio Cloud		            | Communication API for Developers                                        							|	https://www.twilio.com	                  	|
+| Zeit			                  |	DNS application for Web Services						                                          |https://zeit.co/			                  |
+| GitKraken		                | Dashboards for planification, Support GitHub 							                                        |https://app.gitkraken.com/glo/                  	|
+| Docker		                  | Containers SDKs for run in Virtual Machines							                                          |https://cloud.docker.com			                  |
+| Visual Studio		            |	Software for Developers. Some Lenguages (C,C++,C#, Java, Python, JS)						                                          |https://app.vssps.visualstudio.com 		                	|
+| ElasticSearch		            | Server's Monitor							                                          |	https://www.elastic.co		                  |
+| OpenShift		                |	Red Hat Plataform						                                          |	https://manage.openshift.com/		                  |
+| Google Cloud                | Shell and scalables solution for Android and the Cloud                                                      |https://console.cloud.google.com                       |
+
