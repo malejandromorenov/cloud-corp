@@ -7,17 +7,17 @@ Then am explain the companies within the hierarchy and its dashboards. Am wrote 
 
 | Companies		                | Description						                                | URL           		   	                          |
 | ----------------------------| ------------------------------------------------------|-------------------------------------------------|
-| AWS 			                  | AWS & Microsoft make and allaince for SQL and virtual Machines 				                        |https://aws.amazon.com/es/                 			|
-| Kubernetes 		              | Contenido de la celda 				                        | 			                                          |
-| SAP			                    |                 							                        |		                  	        |
+| AWS 			                  | AWS & Microsoft make and alliance for SQL Server and virtual Machines 				                        |https://aws.amazon.com/es/                 			|
+| Kubernetes 		              | Virtual Machines run over Docker 				                        | 			                                          |
+| SAP			                    | Germany Software for ERP                							                        |	https://account.hanatrial.ondemand.com	                  	        |
 | Azure Microsoft 	          | Only database non run shell and programming software  |		                  	|
 | IBM 			                  | IBM is excluded since 29 March 2019 of UK		          |             		    	|
-| Twilio Cloud		            |                                         							|		                  	|
-| Zeit			                  |							                                          |			                  |
-| GitKraken		                | 							                                        |		                  	|
-| Docker		                  |							                                          |			                  |
-| Visual Studio		            |							                                          | 		                	|
-| ElasticSearch		            |							                                          |			                  |
+| Twilio Cloud		            | Communication API for Developers                                        							|		                  	|
+| Zeit			                  |	DNS application for Web Services						                                          |			                  |
+| GitKraken		                | Dashboards for planification, Support GitHub 							                                        |		                  	|
+| Docker		                  | Containers SDKs for run in Virtual Machines							                                          |			                  |
+| Visual Studio		            |	Software for Developers. Some Lenguages (C,C++,C#, Java, Python, JS)						                                          | 		                	|
+| ElasticSearch		            | Server's Monitor							                                          |			                  |
 | OpenShift		                |							                                          |			                  |
-| Google Cloud                |                                                       |                       |
+| Google Cloud                | Shell and scalables solution for Android and the Cloud                                                      |                       |
 |
