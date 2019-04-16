@@ -21,3 +21,12 @@ Then am explain the companies within the hierarchy and its dashboards. Am wrote 
 | OpenShift		                |	Red Hat Plataform						                                          |	https://manage.openshift.com/		                  |
 | Google Cloud                | Shell and scalables solution for Android and the Cloud                                                      |https://console.cloud.google.com                       |
 
+# Next Step
+Also view information in the next bond
+https://github.com/malejandromorenov/cloudubuntu/blob/master/scriptubuntu.sh
+
+Only try running in the shell for complete the process and once finished please restart the machine.
+
+# Step Two
+Learn and choice your preference in the cloud and develope for them.
+
