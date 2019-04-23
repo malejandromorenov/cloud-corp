@@ -35,12 +35,12 @@ Install each line with the shell. The starway in the process is success when you
 I will try to be honest neutro in the order, the price is tax.
 
 # Step Four
-## Amazon Service Cloud
-```python
+## a) Amazon Service Cloud
+```shell
 pip install awscli --upgrade --user
 
 ```
-
+## b) Azure DB for Microsoft
 ```shell
 AZ_REPO=$(lsb_release -cs)
 echo "deb [arch=amd64] https://packages.microsoft.com/repos/azure-cli/ $AZ_REPO main" | \
