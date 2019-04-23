@@ -30,3 +30,23 @@ Only try running in the shell for complete the process and once finished please 
 # Step Two
 Learn and choice your preference in the cloud and develope for them.
 
+# Step Three
+Install each line with the shell. The starway in the process is success when your needs are organizate in your brain. Corporation is the progress in the capital line for the society are only most important that government. Almost your heads is bassicly. "i wich" "i need" the propietary is your OS.
+I will try to be honest neutro in the order, the price is tax.
+
+# Step Four
+## Amazon Service Cloud
+```python
+pip install awscli --upgrade --user
+
+```
+
+```shell
+AZ_REPO=$(lsb_release -cs)
+echo "deb [arch=amd64] https://packages.microsoft.com/repos/azure-cli/ $AZ_REPO main" | \
+sudo tee /etc/apt/sources.list.d/azure-cli.list
+sudo curl -L https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
+sudo sudo apt-get update
+sudo apt-get install apt-transport-https azure-cli
+
+```
