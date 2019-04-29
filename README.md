@@ -52,4 +52,4 @@ sudo apt-get install apt-transport-https azure-cli
 ```
 # Step Five
 Have peace and quite. This time is for developers and learn for the cloud, your are a server. Your totem is your label, your cheer up is only you. Better things incomming, the dead is the solution, the life is resurection and the moments in your life seem a monitor in sleep mode. But not worry more engineers work for this and your life is a volatil and your body and your soul is liberating for the universe.
-Wait for the moment in your life with the couple computer and joy the two. 
+Wait for the moment in your life with the couple computer and joy the two. AUR
