@@ -173,6 +173,46 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io
 apt-cache madison docker-ce
 sudo docker run hello-world
 ```
+## d) Google CLoud
+Create an environment variable for the correct distribution:
+```bash
+export CLOUD_SDK_REPO="cloud-sdk-$(lsb_release -c -s)"
+```
+Add the Cloud SDK distribution URI as a package source:
+```bash
+echo "deb http://packages.cloud.google.com/apt $CLOUD_SDK_REPO main" | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list
+```
+Note: If you have apt-transport-https installed, you can use "https" instead of "http" in this step.
+Import the Google Cloud public key:
+```bash
+curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
+```
+Troubleshooting Tip: If you are unable to get latest updates due to an expired key, obtain the latest apt-get.gpg key file.
+Update and install the Cloud SDK:
+```bash
+sudo apt-get update && sudo apt-get install google-cloud-sdk
+```
+Note: For additional apt-get options, such as disabling prompts or dry runs, refer to the apt-get man pages.
+Optionally, install any of these additional components:
+google-cloud-sdk-app-engine-python
+google-cloud-sdk-app-engine-python-extras
+google-cloud-sdk-app-engine-java
+google-cloud-sdk-app-engine-go
+google-cloud-sdk-datalab
+google-cloud-sdk-datastore-emulator
+google-cloud-sdk-pubsub-emulator
+google-cloud-sdk-cbt
+google-cloud-sdk-cloud-build-local
+google-cloud-sdk-bigtable-emulator
+kubectl
+For example, the google-cloud-sdk-app-engine-java component can be installed as follows:
+```bash
+sudo apt-get install google-cloud-sdk-app-engine-java
+```
+Run gcloud init to get started:
+```bash
+gcloud init
+```
 
 # Step Five
 Have peace and quite. This time is for developers and learn for the cloud, your are a server. Your totem is your label, your cheer up is only you. Better things incomming, the dead is the solution, the life is resurection and the moments in your life seem a monitor in sleep mode. But not worry more engineers work for this and your life is a volatil and your body and your soul is liberating for the universe.
