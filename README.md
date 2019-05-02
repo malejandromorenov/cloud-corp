@@ -59,6 +59,102 @@ https://tools.hana.ondemand.com/#
 curl -fsSL https://clis.cloud.ibm.com/install/linux | sh
 ```
 
+## e) Twilio
+```python
+from twilio.rest import Client
+
+# Your Account SID from twilio.com/console
+account_sid = "AC737898c42503d9cdc285205b1e98b99f"
+# Your Auth Token from twilio.com/console
+auth_token  = "your_auth_token"
+
+client = Client(account_sid, auth_token)
+
+message = client.messages.create(
+    to="+15558675309", 
+    from_="+15017250604",
+    body="Hello from Python!")
+
+print(message.sid)
+```
+###### Install the Library
+The easiest way to install the library is from PyPi using pip, a package manager for Python. Simply run this in the terminal:
+```python
+pip install twilio
+If you get a pip: command not found error, you can also use easy_install. Run this in your terminal:.
+
+easy_install twilio
+```
+
+###### Manual Installation
+Or, you can download the source code (ZIP) for twilio-python, and then install the library by running:
+```python
+python setup.py install
+```
+in the folder containing the twilio-python library.
+
+"Permission Denied"
+If the command line gives you a big long error message that says Permission Denied in the middle of it, try running the above commands with sudo (e.g. sudo pip install twilio).
+
+###### Test Your Installation
+Try sending yourself an SMS message. Save the code sample on this page to your computer with a text editor. Be sure to update the account_sid, auth_token, and from_ phone number with values from your Twilio account. The to phone number can be your own mobile phone.
+
+Save the file as send_sms.py. In the terminal, cd to the directory containing the file you just saved then run:
+```python
+python send_sms.py
+You should receive the text message on your phone.
+```
+
+Using this Library
+Authenticate Client
+```python
+from twilio.rest import Client
+
+account_sid = "AC737898c42503d9cdc285205b1e98b99f"
+auth_token = "your_auth_token"
+client = Client(account_sid, auth_token)
+```
+
+Create a New Record
+```python
+from twilio.rest import Client
+
+account_sid = "AC737898c42503d9cdc285205b1e98b99f"
+auth_token = "your_auth_token"
+client = Client(account_sid, auth_token)
+
+call = client.calls.create(
+    to="+14155551212",
+    from_="+15017250604",
+    url="http://demo.twilio.com/docs/voice.xml"
+)
+
+print(call.sid)
+```
+
+###### Get Existing Record
+```python
+from twilio.rest import TwilioRestClient
+
+account_sid = "AC737898c42503d9cdc285205b1e98b99f"
+auth_token = "your_auth_token"
+client = TwilioRestClient(account_sid, auth_token)
+
+call = client.calls.get("CA42ed11f93dc08b952027ffbc406d0868")
+print(call.to)
+```
+###### Iterate Through Records
+```python
+from twilio.rest import Client
+
+account_sid = "AC737898c42503d9cdc285205b1e98b99f"
+auth_token = "your_auth_token"
+client = Client(account_sid, auth_token)
+
+for sms in client.messages.list():
+    print(sms.to)
+```
+
 # Step Five
 Have peace and quite. This time is for developers and learn for the cloud, your are a server. Your totem is your label, your cheer up is only you. Better things incomming, the dead is the solution, the life is resurection and the moments in your life seem a monitor in sleep mode. But not worry more engineers work for this and your life is a volatil and your body and your soul is liberating for the universe.
 Wait for the moment in your life with the couple computer and joy the two. AUR
