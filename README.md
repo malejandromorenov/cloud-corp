@@ -155,7 +155,7 @@ for sms in client.messages.list():
     print(sms.to)
 ```
 ## d) Docker Containers
-```shell
+```bash
 sudo apt-get update
 sudo apt-get install \
     apt-transport-https \
