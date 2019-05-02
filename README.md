@@ -12,7 +12,7 @@ Then am explain the companies within the hierarchy and its dashboards. Am wrote 
 | SAP			                    | Germany Software for ERP                							                        |	https://account.hanatrial.ondemand.com	                  	        |
 | Azure Microsoft 	          | Database, Shell and Programming software  |	https://portal.azure.com	                  	|
 | IBM 			                  | IBM is excluded since 29 March 2019 of UK		          | https://idaas.iam.ibm.com            		    	|
-| Twilio Cloud		            | Communication API for Developers                                        							|	https://www.twilio.com	                  	|
+| Twilio Cloud		            | Communication API (SMS and Call) Developers                                        							|	https://www.twilio.com	                  	|
 | Zeit			                  |	DNS application for Web Services						                                          |https://zeit.co/			                  |
 | GitKraken		                | Dashboards for planification, Support GitHub 							                                        |https://app.gitkraken.com/glo/                  	|
 | Docker		                  | Containers SDKs for run in Virtual Machines							                                          |https://cloud.docker.com			                  |
