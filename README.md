@@ -154,6 +154,25 @@ client = Client(account_sid, auth_token)
 for sms in client.messages.list():
     print(sms.to)
 ```
+## d) Docker Containers
+```shell
+sudo apt-get update
+sudo apt-get install \
+    apt-transport-https \
+    ca-certificates \
+    curl \
+    gnupg-agent \
+    software-properties-common
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+sudo apt-key fingerprint 0EBFCD88
+sudo add-apt-repository \
+   "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+   $(lsb_release -cs) \
+   stable"
+sudo apt-get install docker-ce docker-ce-cli containerd.io
+apt-cache madison docker-ce
+sudo docker run hello-world
+```
 
 # Step Five
 Have peace and quite. This time is for developers and learn for the cloud, your are a server. Your totem is your label, your cheer up is only you. Better things incomming, the dead is the solution, the life is resurection and the moments in your life seem a monitor in sleep mode. But not worry more engineers work for this and your life is a volatil and your body and your soul is liberating for the universe.
