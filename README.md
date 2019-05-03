@@ -57,6 +57,7 @@ https://tools.hana.ondemand.com/#
 ## d) IBMCloud
 ```shell
 curl -fsSL https://clis.cloud.ibm.com/install/linux | sh
+ibmcloud plugin repo-plugins -r 'IBM Cloud'
 ```
 
 ## e) Twilio
