@@ -1,3 +1,4 @@
+#!bin/bash
 ibmcloud plugin install cloud-object-storage
 ibmcloud plugin install key-protect/kp
 ibmcloud plugin install cloud-databases
