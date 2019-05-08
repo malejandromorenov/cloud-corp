@@ -59,6 +59,10 @@ https://tools.hana.ondemand.com/#
 curl -fsSL https://clis.cloud.ibm.com/install/linux | sh
 ibmcloud plugin repo-plugins -r 'IBM Cloud'
 
+wget https://github.com/malejandromorenov/cloudcorp/blob/master/ibm-script.sh
+chmod 777 -x ibm-script.sh
+apt-get update
+
 ```
 
 ## e) Twilio
