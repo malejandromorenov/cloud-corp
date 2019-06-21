@@ -31,7 +31,7 @@ Only try running in the shell for complete the process and once finished please 
 Learn and choice your preference in the cloud and develope for them.
 
 # Step Three
-Install each line with the shell. The starway in the process is success when your needs are organizate in your brain. Corporation is the progress in the capital line for the society are only most important that government. Almost your heads is bassicly. "i wich" "i need" the propietary is your OS.
+Install each line with the shell. The starway in the process is success when your needs are organizate in your brain. Corporation is the progress in the capital line for the society are only most important that government. Almost your heads is basically. "i wish" "i need" the propietary is your OS.
 I will try to be honest neutro in the order, the price is tax.
 
 # Step Four
