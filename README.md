@@ -201,17 +201,19 @@ sudo apt-get update && sudo apt-get install google-cloud-sdk
 ```
 Note: For additional apt-get options, such as disabling prompts or dry runs, refer to the apt-get man pages.
 Optionally, install any of these additional components:
-google-cloud-sdk-app-engine-python
-google-cloud-sdk-app-engine-python-extras
-google-cloud-sdk-app-engine-java
-google-cloud-sdk-app-engine-go
-google-cloud-sdk-datalab
-google-cloud-sdk-datastore-emulator
-google-cloud-sdk-pubsub-emulator
-google-cloud-sdk-cbt
-google-cloud-sdk-cloud-build-local
-google-cloud-sdk-bigtable-emulator
-kubectl
+```bash
+sudo apt-get install google-cloud-sdk-app-engine-python
+sudo apt-get install google-cloud-sdk-app-engine-python-extras
+sudo apt-get install google-cloud-sdk-app-engine-java
+sudo apt-get install google-cloud-sdk-app-engine-go
+sudo apt-get install google-cloud-sdk-datalab
+sudo apt-get install google-cloud-sdk-datastore-emulator
+sudo apt-get install google-cloud-sdk-pubsub-emulator
+sudo apt-get install google-cloud-sdk-cbt
+sudo apt-get install google-cloud-sdk-cloud-build-local
+sudo apt-get install google-cloud-sdk-bigtable-emulator
+sudo apt-get install kubectl
+```
 For example, the google-cloud-sdk-app-engine-java component can be installed as follows:
 ```bash
 sudo apt-get install google-cloud-sdk-app-engine-java
