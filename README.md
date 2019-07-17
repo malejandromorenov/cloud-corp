@@ -23,7 +23,7 @@ Then am explain the companies within the hierarchy and its dashboards. Am wrote 
 
 # Next Step
 Also view information in the next bond
-[Cloud on Ubuntu](https://github.com/malejandromorenov/cloudubuntu)
+[Cloud on Ubuntu / Debian](https://github.com/malejandromorenov/cloudubuntu)
 
 Only try running in the shell for complete the process and once finished please restart the machine.
 
