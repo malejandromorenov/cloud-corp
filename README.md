@@ -2,7 +2,7 @@
 Details the corporation inside of cloud.
 
 The cloud is the most popular shaped of machines conected in P2P or maybe told M2M, the proof is one features in the long bond of people conected in the world.
-Then am explain the companies within the hierarchy and its dashboards. Am wrote from Mayor University for test only and the cash is non scalable solution for data protected.
+Then am explain the companies within the hierarchy and its dashboards. Am wrote for test only and the cash is non scalable solution for data protected.
 
 
 | Companies		                | Description						                                | URL           		   	                          |
